@@ -1,9 +1,7 @@
 export function calculateDiscount(price, userType, couponCode) {
   let discount = 0;
 
-  if (couponCode === 'SUMMER10') {
-    discount += 0.10;
-  }
+  // to do: add discounts
 
   return price * (1 - discount);
 }
